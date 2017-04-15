@@ -1,0 +1,47 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "18d62d7e76d8c99bab40731e0ff29f28",
+    "content-hash": "c33e81e46a8de887655e8362de2670f2",
+    "packages": [
+        {
+            "name": "dbmover/constraints",
+            "version": "0.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dbmover/constraints.git",
+                "reference": "bbbff4ebb886206dd01c9387c3f06bff97774a43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dbmover/constraints/zipball/bbbff4ebb886206dd01c9387c3f06bff97774a43",
+                "reference": "bbbff4ebb886206dd01c9387c3f06bff97774a43",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marijn Ophorst",
+                    "email": "marijn@monomelodies.nl"
+                }
+            ],
+            "description": "Dbmover plugin for dropping all constraints prior to operations",
+            "time": "2017-04-08 14:56:39"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
