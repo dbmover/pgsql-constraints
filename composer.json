@@ -10,6 +10,6 @@
         }
     ],
     "require": {
-        "dbmover/constraints": "^0.6.0"
+        "dbmover/constraints": "^0.6.1"
     }
 }
