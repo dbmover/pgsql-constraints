@@ -4,27 +4,32 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "11743f7d843a6f0f78fb2fec3e50b065",
+    "hash": "c24e31cd8c9baaf8b7d4cfbabaad79fe",
     "content-hash": "c1eaf6bf216472146deec5d2e2df8fa9",
     "packages": [
         {
             "name": "dbmover/constraints",
-            "version": "0.6.1",
+            "version": "0.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dbmover/constraints.git",
-                "reference": "3c482a0a3b6b4f90a9326d9a1bcbf5cdd1303f23"
+                "reference": "58d28f795da96cbd2a7958483c4bfe20e8df9c8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dbmover/constraints/zipball/3c482a0a3b6b4f90a9326d9a1bcbf5cdd1303f23",
-                "reference": "3c482a0a3b6b4f90a9326d9a1bcbf5cdd1303f23",
+                "url": "https://api.github.com/repos/dbmover/constraints/zipball/58d28f795da96cbd2a7958483c4bfe20e8df9c8c",
+                "reference": "58d28f795da96cbd2a7958483c4bfe20e8df9c8c",
                 "shasum": ""
             },
             "require": {
                 "dbmover/core": "^0.6.0"
             },
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dbmover\\Constraints\\": "./src"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -36,20 +41,20 @@
                 }
             ],
             "description": "Dbmover plugin for dropping all constraints prior to operations",
-            "time": "2017-04-15 05:00:24"
+            "time": "2017-04-15 15:57:11"
         },
         {
             "name": "dbmover/core",
-            "version": "0.6.1",
+            "version": "0.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dbmover/core.git",
-                "reference": "113efe3abcc280ed3db43a45b2373468186fc292"
+                "reference": "25243cd98db75d0b18b3507a0764a1038e62ae6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dbmover/core/zipball/113efe3abcc280ed3db43a45b2373468186fc292",
-                "reference": "113efe3abcc280ed3db43a45b2373468186fc292",
+                "url": "https://api.github.com/repos/dbmover/core/zipball/25243cd98db75d0b18b3507a0764a1038e62ae6d",
+                "reference": "25243cd98db75d0b18b3507a0764a1038e62ae6d",
                 "shasum": ""
             },
             "require": {
@@ -78,7 +83,7 @@
                 }
             ],
             "description": "PHP-based database versioning tool, core components",
-            "time": "2017-04-15 05:58:28"
+            "time": "2017-04-16 12:36:02"
         },
         {
             "name": "monomelodies/kingconf",
