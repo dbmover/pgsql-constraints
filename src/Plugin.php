@@ -14,7 +14,7 @@ class Plugin extends Constraints\Plugin
 {
     protected function dropConstraint(string $table, string $constraint, string $type)
     {
-        if (in_array($type, ['PRIMARY KEY', 'FOREIGN KEY'])) {
+        if (in_array($type, ['FOREIGN KEY'])) {
             $this->addOperation("ALTER TABLE $table DROP CONSTRAINT IF EXISTS $constraint CASCADE;");
         }
     }
