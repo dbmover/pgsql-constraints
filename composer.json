@@ -10,11 +10,15 @@
         }
     ],
     "require": {
-        "dbmover/constraints": "^0.6.1"
+        "php": ">=7.2",
+        "dbmover/constraints": "^0.6.4"
     },
     "autoload": {
         "psr-4": {
             "Dbmover\\Pgsql\\Constraints\\": "./src"
         }
+    },
+    "require-dev": {
+        "toast/unit": "^1.3"
     }
 }
